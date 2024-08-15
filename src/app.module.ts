@@ -9,7 +9,7 @@ import { PrismaModule } from './prisma/prisma.module';
 @Module({
     imports: [
         ConfigModule.forRoot({
-             isGlobal: true, // so that we can use config service globally, otherwise throw error
+            isGlobal: true, // so that we can use config service globally, otherwise throw error
         }), //used to load the env variables in module
         AuthModule,
         UserModule,
