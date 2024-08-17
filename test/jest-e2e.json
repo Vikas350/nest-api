@@ -7,3 +7,6 @@
     "^.+\\.(t|j)s$": "ts-jest"
   }
 }
+
+
+https://stackoverflow.com/questions/75234232/nestjs-jest-test-failed-cannot-find-module-from-app-e2e-spec-ts
